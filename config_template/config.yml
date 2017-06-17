@@ -1,0 +1,57 @@
+# HiveJumpPads v3.0 | 
+# If there are any problems please contact me on dev.Bukkit.org
+HiveJumpPads:
+    # Set 'useLegacyJump: true' for using the old jump-system (uses a lot of server resources)
+    # This can be useful if the new jump-system isn't working (correctly)
+    # If you are using the legacy jump system you are not able to 'useAdvancedJumpPads: true'!
+    # Default value: 'useLegacyJump: false' 
+    useLegacyJump: false
+    # Set 'useAdvancedJumpPads: true' to be able to configure each jumppad (recommended until 100 ADVANCED jumppads)
+    # More information: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/advanced-jumppads (BETA)
+    # Default value: 'useAdvancedJumpPads: false' 
+    useAdvancedJumpPads: false
+    # Set 'registerEachJumpPad: true' to register each jumppad before they can be used
+    # You have to set 'useAdvancedJumpPads: true' to use this function. (BETA)
+    # More information: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/advanced-jumppads
+    # Default value: 'registerEachJumpPad: false' 
+    registerEachJumpPad: false
+    # Set 'sendServerStatistics: false' to prevent the plugin obtaining server informations
+    # The data will be collected by https://bstats.org/. This option only disables 
+    # the feature for HiveJumpPads. If you wan't to disable Metrics for all plugins, you
+    # have to set 'enabled: false' in the 'plugins/bStats/config.yml' file. More informations 
+    # can be found at: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki
+    # Default value: 'sendServerStatistics: true'
+    sendServerStatistics: true  
+    JumpPads:
+        # Set 'disableFalldamage: false' to allow the players to get falldamage
+        # Default value: 'disableFalldamage: true'
+        disableFalldamage: true
+        # Add worlds to the 'disabledWorlds' list to disable the use of jumppads in the world
+        # The worlds have to be spelled correct. Take care of upper and lower case letters.
+        # Set "disabledWorld: []" to disable no world
+        disabledWorlds:
+        - World1
+        - World2
+    Updates:
+        # Set 'automaticUpdateCheck: true' to get notified if an update is available 
+        # Default value: 'automaticUpdateCheck: true'
+        automaticUpdateCheck: true 
+        # Set 'automaticUpdateDownload: true' to automatically download the update if an update is available (Provided: 'automaticUpdateCheck: true')
+        # Default value: 'automaticUpdateCheck: false'
+        automaticUpdateDownload: false 
+    MySQL:
+        # Set 'useMySQL: true' to use your MySQL database instead of the local system (EXPERIMENTAL PRE BETA)
+        # The plugin stores only jumppad data ('useAdvancedJumpPads: true' is required)
+        # This function can only be used if there is no advanced jumppad created. 
+        # This option is recommended until 50 ADVANCED jumppads
+        useMySQL: false
+        # Set 'MySQL-Username' to your database username 
+        MySQL-User: username
+        # Set 'MySQL-Password' to your database user password 
+        MySQL-Password: password 
+        # Set 'MySQL-Database' to your database name
+        MySQL-Database: minecraft
+        # Set 'MySQL-Host' to your database host address
+        MySQL-Host: localhost 
+        # Change 'MySQL-Port' if your MySQL database is listening to another port
+        MySQL-Port: 3306

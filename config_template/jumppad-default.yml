@@ -1,0 +1,36 @@
+# HiveJumpPads v3.0 | Please report bugs on https://dev.bukkit.org/projects/hive-jumppads/ - thank you :)
+# If there are any problems please contact me on dev.Bukkit.org
+#
+# Available Sounds and Effects can be found at:
+# Sounds: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/sounds
+# Effects: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/effects
+#
+# This configuration changes jumppad settings for all jumppads if 'useAdvancedJumpPads: false' is set.
+# If you use 'useAdvancedJumpPads: true' this is the template for all jumppads you are creating. 
+# The specific jumppad file can be found in the 'plugins/HiveJumpPads/JumpPads/' directory. 
+# Learn more about advanced jumppads: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/advanced-jumppads 
+HiveJumpPads:
+    JumpPads:
+        # Change the block that is used as the jumppad ground (Def. 'BlockID: 152')
+        BlockID: 152
+        # Change the preasure plate that is used as the jumppad preasure plate (Def. 'PressurePlateID: 70')
+        # If you wan't to use a block that isn't a preasure plate you have to set 'useLegacyJump: true'
+        PressurePlateID: 70
+        # Set 'LockedSize: false' if you wan't to create 1x1 jumppads (Def. 'LockedSize: true')
+        LockedSize: true
+        # Change the velocity speed length (Def. 'JumpLength: 2.5')
+        JumpLength: 2.5
+        # Change the velocity speed height (Def. 'JumpHeight: 0.75')
+        JumpHeight: 0.75
+        # Set 'EnableSounds: false' to disable the jump sound (Def. 'EnableSounds: true')
+        EnableSounds: true
+        # Set 'EnableEffects: false' to disable the jump effect (Def. 'EnableSounds: true')
+        EnableEffects: true
+        # Set 'EnableMessage: false' to disable the jump message (Def. 'EnableMessage: false')
+        EnableMessage: false
+        # Change the jump sound. List of sounds: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/sounds
+        Sound: ENTITY_WITHER_SHOOT
+        # Change the jump effect. List of effects: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/effects
+        Effect: SMOKE
+        # Change the jump message. List of color codes: http://minecraft.gamepedia.com/Formatting_codes
+        Message: '&aWOOOOSH!'
