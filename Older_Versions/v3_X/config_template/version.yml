@@ -1,7 +1,7 @@
-# HiveJumpPads v3.0 | Please report bugs on https://dev.bukkit.org/projects/hive-jumppads/ - thank you :)
+# HiveJumpPads v3.0b | Please report bugs on https://dev.bukkit.org/projects/hive-jumppads/ - thank you :)
 # Don't change anything in this file, otherwise the plugin maybe won't work any longer!
 HiveJumpPads:
-    version: 3.0
+    version: 3.0b
     buildid: 0001
     jumpid: 0
     missing-ids: []

@@ -9,9 +9,9 @@ import com.Sendarox.HiveJumpPads.update.Updater.UpdateResult;
 
 public class Value {
 	
-	public static final String version = "3.0";
+	public static final String version = "3.0b";
 	public static final String codename = "Skyline";
-	public static final String buildid = "0001";
+	public static final String buildid = "0002";
 	public static final int bukkitdevid = 64535;
 	
 	public static final String chatprefix = "§a[§6HiveJumpPads§a]§7 ";

@@ -17,7 +17,7 @@ public class JumpPadListConfiguration {
 		}
 		FileConfiguration cfg = YamlConfiguration.loadConfiguration(f);
 		
-		cfg.options().header("HiveJumpPads v3.0 | Please report bugs on https://dev.bukkit.org/projects/hive-jumppads/ - thank you :)\nDon't change anything in this file, otherwise the plugin maybe won't work any longer!");
+		cfg.options().header("HiveJumpPads v3.0b | Please report bugs on https://dev.bukkit.org/projects/hive-jumppads/ - thank you :)\nDon't change anything in this file, otherwise the plugin maybe won't work any longer!");
 		cfg.options().copyHeader(true);
 		
 		try {

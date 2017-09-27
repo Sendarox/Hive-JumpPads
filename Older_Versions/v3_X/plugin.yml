@@ -1,0 +1,16 @@
+name: HiveJumpPads
+version: 3.0b
+description: This plugin creates jumppads!
+# Hive JumpPads (c) 2013-2017 Sendarox - all rights reserved 
+# Contact me: https://dev.bukkit.org/bukkit-plugins/hive-jumppads/
+author: Sendarox
+website: https://dev.bukkit.org/bukkit-plugins/hive-jumppads/
+
+prefix: HiveJumpPads
+main: com.Sendarox.HiveJumpPads.HiveJumpPads
+# Command registration
+commands:
+  hivejumppads:
+    description: Hive JumpPads main command
+    aliases: [hjp, jumppads]
+    usage: Command unknown. Please use /hivejumppads!

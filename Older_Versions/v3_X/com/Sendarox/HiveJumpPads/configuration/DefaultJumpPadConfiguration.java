@@ -12,12 +12,12 @@ import com.Sendarox.HiveJumpPads.utils.Value;
 public class DefaultJumpPadConfiguration {
 	
 	public void create(){
-		File file = new File("plugins/HiveJumpPads/JumpPad-default.yml");
+		File file = new File("plugins/HiveJumpPads/jumppad-default.yml");
 		if(!file.exists()){
 			ResourceHandler rh = new ResourceHandler();
 			try {
 				rh.ExportResource("/config_template/jumppad-default.yml", "/HiveJumpPads");
-				System.out.println("[HiveJumpPads] Jumppad-default.yml is not existing. Creating a new one!");
+				System.out.println("[HiveJumpPads] jumppad-default.yml is not existing. Creating a new one!");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -37,13 +37,13 @@ public class DefaultJumpPadConfiguration {
 	}
 	
 	public Object get(String path){
-		File file = new File("plugins/HiveJumpPads/JumpPad-default.yml");
+		File file = new File("plugins/HiveJumpPads/jumppad-default.yml");
 		FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
 		return cfg.get(path);
 	}
 	
 	public void set(String path, Object object){
-		File file = new File("plugins/HiveJumpPads/JumpPad-default.yml");
+		File file = new File("plugins/HiveJumpPads/jumppad-default.yml");
 		FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
 		cfg.set(path, object);
 		try {
