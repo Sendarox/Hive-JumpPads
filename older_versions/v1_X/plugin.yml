@@ -1,0 +1,12 @@
+name: HiveJumpPads
+version: 1.9.3
+main: eu.Xenedor.HiveJumpPads.HiveJumpPads
+
+author: Xenedor
+webiste: http://dev.Bukkit.org/bukkit-plugins/hive-jumppads/
+
+commands:
+    HiveJumpPads:
+        description: HiveJumpPads Main Command
+        usage: /<command> <argrument>
+        aliases: [hjp]

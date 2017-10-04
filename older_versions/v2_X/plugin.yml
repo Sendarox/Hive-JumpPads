@@ -1,0 +1,12 @@
+name: HiveJumpPads
+version: 2.16
+main: eu.Sendarox.HiveJumpPads.HiveJumpPads
+
+author: Sendarox
+website: http://dev.bukkit.org/bukkit-plugins/hive-jumppads/
+
+commands:
+    HiveJumpPads:
+        description: Hive JumpPads Main Command
+        usage: /<command> <args>
+        aliases: [hjp, jumppads, hivejump]

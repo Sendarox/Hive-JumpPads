@@ -1,0 +1,3 @@
+JumpPad: HiveJumpPads.use.JumpPad
+Trampoline: HiveJumpPads.use.Trampoline
+ReloadCommand: HiveJumpPads.command.Reload
