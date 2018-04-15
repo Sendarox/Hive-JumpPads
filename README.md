@@ -30,4 +30,4 @@ Updater by Gravity: https://github.com/gravitylow/Updater/blob/master/src/main/j
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/Sendarox/HiveJumpPads/blob/master/LICENSE) file for details
