@@ -6,12 +6,12 @@ Hive JumpPads Minecraft Bukkit Plugin. It adds JumpPads to your Minecraft Bukkit
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Current Plugin version is located in:
+Current Plugin version is located here:
 ```
 com/Sendarox/HiveJumpPads/..
 ```
 
-Older Hive JumpPads versions can be found:
+Older Hive JumpPads versions can be found here:
 ```
 Older_Versions/vX_X/..
 ```
