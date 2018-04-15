@@ -1,6 +1,6 @@
 # Hive JumpPads 
 
-Hive JumpPads Minecraft Bukkit Plugin. Adds JumpPads to your Minecraft Bukkit Server.
+Hive JumpPads Minecraft Bukkit Plugin. It adds JumpPads to your Minecraft Bukkit Server.
 
 ## Getting Started
 
