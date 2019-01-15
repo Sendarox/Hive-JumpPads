@@ -1,0 +1,37 @@
+# HiveJumpPads v4.0 | Please report bugs on https://dev.bukkit.org/projects/hive-jumppads/ | Thank You =)
+# Copyright (C) 2013-2019 Sendarox
+#
+# If there occur any problems please contact me on dev.Bukkit.org!
+#
+# Available Sounds and Effects can be found here:
+# Sounds: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/sounds
+# Effects: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/effects
+HiveJumpPads:
+    jumppad-default:
+        # Change the block that is used as the Jump-Pads ground. (Def. 'BlockID: 152')
+        BlockID: 152
+        # Change the preasure plate that is used as the Jump-Pads preasure plate. (Def. 'PressurePlateID: 70')
+        # If you wan't to use a block that isn't a preasure plate you have to set 'useLegacyJump: true'!
+        PressurePlateID: 70
+        # Set 'LockedSize: false' if you want to create 1x1 Jump-Pads. (Def. 'LockedSize: true')
+        LockedSize: true
+        # Change the velocity speed length (Def. 'JumpLength: 2.5')
+        JumpLength: 2.5
+        # Change the velocity speed height (Def. 'JumpHeight: 0.75')
+        JumpHeight: 0.75
+        # Set 'EnableSounds: false' to disable the jump sound. (Def. 'EnableSounds: true')
+        EnableSounds: true
+        # Set 'EnableEffects: false' to disable the jump effect. (Def. 'EnableEffects: true')
+        EnableEffects: true
+        # Set 'EnableMessage: false' to disable the Jump-Pad cooldown. (Def. 'EnableMessage: false')
+        EnableCooldown: false
+        # Set 'EnableMessage: false' to disable the jump message. (Def. 'EnableMessage: false')
+        EnableMessage: false
+        # Change the jump sound. List of sounds: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/sounds
+        Sound: ENTITY_WITHER_SHOOT
+        # Change the jump effect. List of effects: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki/effects
+        Effect: SMOKE
+        # Change the duration of the cooldown that's imposed to the player after jumping.
+        Cooldown: 2500
+        # Change the jump message. List of color codes: http://minecraft.gamepedia.com/Formatting_codes
+        Message: '&a&oYEET!'

@@ -1,0 +1,33 @@
+# HiveJumpPads v4.0 Copyright (C) 2017 Sendarox
+# If there are any problems please contact me on dev.Bukkit.org
+HiveJumpPads:
+    # Set 'useLegacyJump: true' for using the old jump-system (uses a lot of server resources)
+    # This can be useful if the new jump-system isn't working as intended
+    # If you are using the legacy jump system you are not able to 'useAdvancedJumpPads: true'!
+    # Default value: 'useLegacyJump: false' 
+    useLegacyJump: false
+    # Set 'sendServerStatistics: false' to prevent the plugin obtaining server informations
+    # The data will be collected by https://bstats.org/. This option only disables 
+    # the feature for HiveJumpPads. If you wan't to disable Metrics for all plugins, you
+    # have to set 'enabled: false' in the 'plugins/bStats/config.yml' file. More informations 
+    # can be found at: https://dev.bukkit.org/projects/hive-jumppads/pages/wiki
+    # Default value: 'sendServerStatistics: true'
+    sendServerStatistics: true  
+    # Change this to your localization-code. Be sure the file with your localization-code exists.
+    # The language files can be found here: plugins/HiveJumpPads/lang/_code_.lang
+    # Default value: 'pluginLanguage: en_us'
+    pluginLanguage: en_us
+    # Set 'useDebug: true' to get a full message console output
+    # Default value: 'useDebug: false' 
+    useDebug: false
+    JumpPads:
+        # Set 'disableFalldamage: false' to allow the players to get fall-damage
+        # Default value: 'disableFalldamage: true'
+        disableFalldamage: true
+    Updates:
+        # Set 'automaticUpdateCheck: true' to get notified if an update is available 
+        # Default value: 'automaticUpdateCheck: true'
+        automaticUpdateCheck: true 
+        # Set 'automaticUpdateDownload: true' to automatically download the update if an update is available (Provided: 'automaticUpdateCheck: true')
+        # Default value: 'automaticUpdateCheck: false'
+        automaticUpdateDownload: true 

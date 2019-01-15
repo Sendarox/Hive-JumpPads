@@ -1,16 +1,17 @@
+# License: GNU General Public License version 3 (GPLv3) 
 name: HiveJumpPads
-version: 3.0
-description: This plugin creates jumppads!
-# Hive JumpPads (c) 2013-2017 Sendarox - all rights reserved 
+version: 4.0
+description: Create Jump-Pads on your Minecraft-Bukkit server.
+# Hive JumpPads (c) 2013-2017 Sendarox 
 # Contact me: https://dev.bukkit.org/bukkit-plugins/hive-jumppads/
 author: Sendarox
 website: https://dev.bukkit.org/bukkit-plugins/hive-jumppads/
 
 prefix: HiveJumpPads
 main: com.Sendarox.HiveJumpPads.HiveJumpPads
-# Command registration
+# Command registration:
 commands:
   hivejumppads:
-    description: Hive JumpPads main command
+    description: Hive-JumpPads main command
     aliases: [hjp, jumppads]
     usage: Command unknown. Please use /hivejumppads!

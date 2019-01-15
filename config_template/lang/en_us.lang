@@ -1,0 +1,34 @@
+# Language file for Hive JumpPads v4.0 en_us (English)
+#    Copyright (C) 2013-2019 Sendarox
+#
+hjp.general.devby=developed by
+hjp.general.help=&7Please use &6'/hjp help' &7for a list of all commands
+#
+hjp.update.found=%hjp_bprefix%An update was found for &6Hive JumpPads v%hjp_version%&7!
+hjp.update.use.url=&7| Use &6'/hjp update url' &7to get the download url
+hjp.update.use.download=&7| Use &6'/hjp update download' &7to download the plugin
+#
+hjp.command.default.console.info=Since you're the console you can only use the '/hjp download' command.
+#
+hjp.console.enable.start=Loading HiveJumpPads v%ver%...
+hjp.console.enable.success=Loaded HiveJumpPads v%ver% successfully.
+hjp.console.enable.languagefile=Successfully loaded the '%locale%' language file.
+hjp.console.disable.start=Disabling HiveJumpPads v%ver%...
+hjp.console.disable.success=Disabled HiveJumpPads v%ver% successfully.
+#
+hjp.console.info.metrics.disabled=
+hjp.console.info.metrics.ready=
+hjp.console.info.update.disabled=
+hjp.console.info.update.found=
+hjp.console.info.update.none=
+#
+hjp.builder.chat.entername=&6&l> &7Please enter a jumppad name:
+hjp.builder.chat.enterblockid=&6&l> &7Please enter a block ID:
+hjp.builder.chat.enterpressureplateid=&6&l> &7Please enter a pressureplate ID:
+hjp.builder.chat.entervelocity.x=&6&l> &7Please enter the X-velocity:
+hjp.builder.chat.entervelocity.y=&6&l> &7Please enter the Y-velocity:
+hjp.builder.chat.entermessage=&6&l> &7Please enter a message:
+hjp.builder.chat.entersound=&6&l> &7Please enter a sound:
+hjp.builder.chat.entereffect=&6&l> &7Please enter a effect:
+#
+hjp.builder.gui.block=&a&lChoose Ground Block
