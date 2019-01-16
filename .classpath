@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path=""/>
+	<classpathentry excluding="older_versions/" kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="M:/BENUTZER/Dokumente/Programmierung/APIs/BuildTools/spigot-1.12.jar"/>
+	<classpathentry kind="lib" path="X:/.java-development/Minecraft/Minecraft Bukkit Projekte/.api/spigot-1.13.2.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
