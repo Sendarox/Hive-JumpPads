@@ -19,7 +19,7 @@
 
 package com.Sendarox.HiveJumpPads.Utils.Handler;
 
-/** ResourceHandler.java - {CLASS_DESCRIPTION} */
+/** ResourceHandler.java - Resource exportation. */
 public class ResourceHandler {
 
 }

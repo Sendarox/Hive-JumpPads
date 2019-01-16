@@ -1,6 +1,6 @@
 /**
  * HiveJumpPads, a Bukkit plugin to create 'Jump-Pads' on your Minecraft server.
- * Language.java - Language Handler.
+ * Language.java - HiveJumpPads Language Handler.
  * Copyright (C) 2013-2019 Sendarox 
  *
  * This program is free software: you can redistribute it and/or modify it

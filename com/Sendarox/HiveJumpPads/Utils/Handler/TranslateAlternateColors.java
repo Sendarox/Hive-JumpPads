@@ -19,7 +19,7 @@
 
 package com.Sendarox.HiveJumpPads.Utils.Handler;
 
-/** TranslateAlternateColors.java - {CLASS_DESCRIPTION} */
+/** TranslateAlternateColors.java - Translate Alternate Colors. */
 public class TranslateAlternateColors {
 
 }

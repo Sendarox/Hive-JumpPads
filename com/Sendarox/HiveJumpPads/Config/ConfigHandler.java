@@ -19,7 +19,7 @@
 
 package com.Sendarox.HiveJumpPads.Config;
 
-/** ConfigHandler.java - {CLASS_DESCRIPTION} */
+/** ConfigHandler.java - Configuration handler. */
 public class ConfigHandler {
 
 }

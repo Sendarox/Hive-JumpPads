@@ -1,6 +1,6 @@
 /**
  * HiveJumpPads, a Bukkit plugin to create 'Jump-Pads' on your Minecraft server.
- * Metrics.java - {CLASS_DESCRIPTION}
+ * Metrics.java - Provides Metrics functionality.
  * Copyright (C) 2013-2019 Sendarox 
  *
  * This program is free software: you can redistribute it and/or modify it

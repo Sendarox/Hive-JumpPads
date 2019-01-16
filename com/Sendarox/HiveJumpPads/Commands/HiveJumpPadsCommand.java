@@ -19,7 +19,7 @@
 
 package com.Sendarox.HiveJumpPads.Commands;
 
-/** HiveJumpPadsCommand.java - {CLASS_DESCRIPTION} */
+/** HiveJumpPadsCommand.java - HiveJumpPads main command. */
 public class HiveJumpPadsCommand {
 
 }

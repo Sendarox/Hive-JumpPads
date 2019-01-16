@@ -4,7 +4,7 @@
  *    / /_/ / / | / / _ \__  / / / / / __ `__ \/ __ \/ /_/ / __ `/ __  / ___/
  *   / __  / /| |/ /  __/ /_/ / /_/ / / / / / / /_/ / ____/ /_/ / /_/ (__  ) 
  *  /_/ /_/_/ |___/\___/\____/\__,_/_/ /_/ /_/ .___/_/    \__,_/\__,_/____/  
- *         Plugin version: v4.0             /_/  Copyright (C) 2013-2019 Sendarox                      
+ *         plugin version: v4.0             /_/  Copyright (C) 2013-2019 Sendarox                      
  * 
  * HiveJumpPads, a Bukkit plugin to create 'Jump-Pads' on your Minecraft server.
  * HiveJumpPads.java - Provides main functionality.
@@ -35,12 +35,14 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class HiveJumpPads extends JavaPlugin {
 
 	@Override
+	/** Executed when the server is launching. **/
 	public void onEnable() {
 		getLogger().log(Level.INFO, "[HiveJumpPads]");
 		
 	}
 	
 	@Override
+	/** Executed when the server shutdowns. **/
 	public void onDisable() {
 		
 	}
