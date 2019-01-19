@@ -19,7 +19,15 @@
 
 package com.Sendarox.HiveJumpPads.Utils;
 
-/** Values.java - {CLASS_DESCRIPTION} */
+import com.Sendarox.HiveJumpPads.Utils.Updater.UpdateResult;
+
+/** Values.java - HiveJumpPads Value file. */
 public class Values {
 
+	/** Update related variables. **/
+	public static UpdateResult sv_updateResult;
+	public static Boolean 	   sv_updateNeeded;
+	public static String	   sv_updateUrl;
+	public static String	   sv_updateVer;
+	
 }

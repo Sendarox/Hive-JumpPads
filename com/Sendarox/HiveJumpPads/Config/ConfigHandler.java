@@ -19,7 +19,63 @@
 
 package com.Sendarox.HiveJumpPads.Config;
 
+import java.io.File;
+import java.util.HashMap;
+import java.util.logging.Level;
+
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.configuration.file.YamlConfiguration;
+
+import com.Sendarox.HiveJumpPads.HiveJumpPads;
+import com.Sendarox.HiveJumpPads.Utils.Handler.ResourceHandler;
+
 /** ConfigHandler.java - Configuration handler. */
 public class ConfigHandler {
 
+	public interface HJPConfiguration {
+		
+		public String __CONFIG_NAME__();
+		public String __CONFIG_PATH__();
+		public void __CONFIG_DEFAULTS__();
+		
+	}
+	
+	public static void setupAllConfigurations() {
+		setupDirectories();
+		setupDefaultLanguageFiles();
+	}
+	
+	private static void setupDefaultLanguageFiles() {
+		File _lang_enUS = new File("plugins/HiveJumpPads/lang/en_us.lang");
+		if(!_lang_enUS.exists()) {
+			try {
+				ResourceHandler.ExportResource("/config_template/lang/en_us.lang", "/HiveJumpPads/lang/");
+			} catch (Exception _e) {
+				HiveJumpPads._hjp_logger.log(Level.SEVERE, "Err");
+				_e.printStackTrace();
+			}
+		}
+		
+		File _lang_deDE = new File("plugins/HiveJumpPads/lang/de_de.lang");
+		if(!_lang_deDE.exists()) {
+			try {
+				ResourceHandler.ExportResource("/config_template/lang/de_de.lang", "/HiveJumpPads/lang/");
+			} catch (Exception _e) {
+				HiveJumpPads._hjp_logger.log(Level.SEVERE, "Err");
+				_e.printStackTrace();
+			}
+		}
+	}
+	
+	private static void setupDirectories() {
+		File _dir = new File("plugins/HiveJumpPads/lang/");
+		if(!_dir.exists()) {
+			_dir.mkdirs();
+		}
+		_dir = new File("plugins/HiveJumpPads/jumppads/");
+		if(!_dir.exists()) {
+			_dir.mkdirs();
+		}
+	}
+	
 }

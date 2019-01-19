@@ -1,6 +1,6 @@
 /**
  * HiveJumpPads, a Bukkit plugin to create 'Jump-Pads' on your Minecraft server.
- * HiveJumpPadsCommand.java - {CLASS_DESCRIPTION}
+ * HiveJumpPadsCommand.java - HiveJumpPads main command class.
  * Copyright (C) 2013-2019 Sendarox 
  *
  * This program is free software: you can redistribute it and/or modify it
@@ -19,7 +19,38 @@
 
 package com.Sendarox.HiveJumpPads.Commands;
 
-/** HiveJumpPadsCommand.java - HiveJumpPads main command. */
-public class HiveJumpPadsCommand {
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+
+import com.Sendarox.HiveJumpPads.HiveJumpPads;
+
+/** HiveJumpPadsCommand.java - HiveJumpPads main command class. */
+public class HiveJumpPadsCommand implements CommandExecutor {
+
+	@Override
+	public boolean onCommand(CommandSender _s, Command _c, String _str, String[] _args) {
+		if(_args.length == 0) {
+			_s.sendMessage(HiveJumpPads.getLanguage().getLanguageContent("hjp.general.devby")+" §6§lSendarox");
+			_s.sendMessage(HiveJumpPads.getLanguage().getLanguageContent("hjp.general.help"));
+		} else if(_args.length == 1) {
+			if(_args[0].equalsIgnoreCase("help")) {
+				_s.sendMessage(HiveJumpPads.getLanguage().getLanguageContent("hjp.command.help.title"));
+				_s.sendMessage("§7| §a/hivejumppads info §7- "+HiveJumpPads.getLanguage().getLanguageContent("hjp.command.help.desc_info"));
+				_s.sendMessage("§7| §a/hivejumppads wiki §7- "+HiveJumpPads.getLanguage().getLanguageContent("hjp.command.help.desc_wiki"));
+				_s.sendMessage("§7| §a/hivejumppads reload §7- "+HiveJumpPads.getLanguage().getLanguageContent("hjp.command.help.desc_reload"));
+				_s.sendMessage("§7| §a/hivejumppads update [args] §7- "+HiveJumpPads.getLanguage().getLanguageContent("hjp.command.help.desc_update"));
+			} else if(_args[0].equalsIgnoreCase("info")) {
+				_s.sendMessage(HiveJumpPads.getLanguage().getLanguageContent("hjp.general.curver"));
+				_s.sendMessage(HiveJumpPads.getLanguage().getLanguageContent("hjp.general.devby")+" §6Sendarox");
+				_s.sendMessage(HiveJumpPads.getLanguage().getLanguageContent("hjp.general.website")+" §7§n"+HiveJumpPads.getDescriptionFile().getWebsite());
+			} else if(_args[0].equalsIgnoreCase("reload")) {
+				if(_s.hasPermission("hivejumppads.command.reload")) {
+					_s.sendMessage("");
+				}
+			}
+		}
+		return true;
+	}
 
 }

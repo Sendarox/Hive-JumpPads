@@ -19,7 +19,14 @@
 
 package com.Sendarox.HiveJumpPads.Utils.Handler;
 
+import org.bukkit.ChatColor;
+
 /** TranslateAlternateColors.java - Translate Alternate Colors. */
 public class TranslateAlternateColors {
 
+	/** Transalte ColorCodes within the given string. **/
+	public static String translateColorCodes(String _msg) {
+		return ChatColor.translateAlternateColorCodes('&', _msg);
+	}
+	
 }

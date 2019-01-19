@@ -1,34 +1,67 @@
 # Language file for Hive JumpPads v4.0 en_us (English)
 #     Copyright (C) 2013-2019 Sendarox
 #
-hjp.general.devby=developed by
-hjp.general.help=&7Please use &6'/hjp help' &7for a list of all commands
+#####
+#
+#	The following section handles general messages:
+#
+hjp.general.prefix=&a[&6HiveJumpPads&a]
+hjp.general.bprefix=&a[&6&lHiveJumpPads&a]&7
+hjp.general.cprefix=[HiveJumpPads]
+#
+hjp.general.devby=%bprefix% %plugin_name% &6v%ver%&7 developed by
+hjp.general.help=%bprefix% &7Use &6'/hjp help' &7for a list of all commands
+hjp.general.curver=%bprefix% &7Current Version: &6v%ver%.
+hjp.general.website=&6&lWebsite:&7
+#####
+#
+#	The following section handles update related messages:
 #
 hjp.update.found=%hjp_bprefix%An update was found for &6Hive JumpPads v%hjp_version%&7!
 hjp.update.use.url=&7| Use &6'/hjp update url' &7to get the download url
 hjp.update.use.download=&7| Use &6'/hjp update download' &7to download the plugin
+#####
+#
+#	The following section handles command related messages:
+#
+hjp.command.general.no_perm=
+#
+hjp.command.help.title=&7&k..........&6 %plugin_name% &6v%ver% &lHelp &7&k..........&7:
+hjp.command.help.desc_info=shows a brief plugin info
+hjp.command.help.desc_wiki=shows an url refering to the wiki-page
+hjp.command.help.desc_reload=reloads the plugin
+hjp.command.help.desc_update=checks and manages updates
+#
+hjp.command.reload.reloading=%prefix% &6HiveJumpPads &7v%ver% reloading...
+hjp.command.reload.reload_succ=%prefix% &6HiveJumpPads &7v%ver% reload was &asuccessful&7.
+hjp.command.reload.reload_fail=%prefix% &6HiveJumpPads &7v%ver% reload &cfailed&7!
 #
 hjp.command.default.console.info=Since you're the console you can only use the '/hjp download' command.
-#
+###
 hjp.console.enable.start=Loading HiveJumpPads v%ver%...
 hjp.console.enable.success=Loaded HiveJumpPads v%ver% successfully.
 hjp.console.enable.languagefile=Successfully loaded the '%locale%' language file.
 hjp.console.disable.start=Disabling HiveJumpPads v%ver%...
 hjp.console.disable.success=Disabled HiveJumpPads v%ver% successfully.
-#
+###
 hjp.console.info.metrics.disabled=
 hjp.console.info.metrics.ready=
 hjp.console.info.update.disabled=
 hjp.console.info.update.found=
 hjp.console.info.update.none=
-#
+###
 hjp.builder.chat.entername=&6&l> &7Please enter a jumppad name:
-hjp.builder.chat.enterblockid=&6&l> &7Please enter a block ID:
-hjp.builder.chat.enterpressureplateid=&6&l> &7Please enter a pressureplate ID:
+hjp.builder.chat.enterblockid=&6&l> &7Please enter a block-ID:
+hjp.builder.chat.enterpressureplateid=&6&l> &7Please enter a pressureplate-ID:
 hjp.builder.chat.entervelocity.x=&6&l> &7Please enter the X-velocity:
 hjp.builder.chat.entervelocity.y=&6&l> &7Please enter the Y-velocity:
-hjp.builder.chat.entermessage=&6&l> &7Please enter a message:
-hjp.builder.chat.entersound=&6&l> &7Please enter a sound:
-hjp.builder.chat.entereffect=&6&l> &7Please enter a effect:
-#
+hjp.builder.chat.entermessage=&6&l> &7Please enter a message &o(empty for none)&7:
+hjp.builder.chat.entersound=&6&l> &7Please enter a sound &o(empty for none)&7:
+hjp.builder.chat.entereffect=&6&l> &7Please enter a effect &o(empty for none)&7:
+###
 hjp.builder.gui.block=&a&lChoose Ground Block
+#####
+#
+#	The following section exception related messages:
+#
+hjp.exception.resource.failed=%cprefix% Failed to export resource '%resource%' from .jar file.
