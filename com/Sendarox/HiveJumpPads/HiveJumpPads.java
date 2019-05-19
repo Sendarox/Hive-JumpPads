@@ -4,9 +4,9 @@
  *    / /_/ / / | / / _ \__  / / / / / __ `__ \/ __ \/ /_/ / __ `/ __  / ___/
  *   / __  / /| |/ /  __/ /_/ / /_/ / / / / / / /_/ / ____/ /_/ / /_/ (__  ) 
  *  /_/ /_/_/ |___/\___/\____/\__,_/_/ /_/ /_/ .___/_/    \__,_/\__,_/____/  
- *         plugin version: v4.0             /_/  Copyright (C) 2013-2019 Sendarox                      
+ *         PLUGIN VERSION v4.0             /_/  Copyright (C) 2013-2019 Sendarox                      
  * 
- * HiveJumpPads, a Bukkit plugin to create 'Jump-Pads' on your Minecraft server.
+ * HiveJumpPads, a Bukkit plugin enables you to create 'Jump-Pads' on your Minecraft server.
  * HiveJumpPads.java - Provides main functionality.
  * Copyright (C) 2013-2019 Sendarox 
  *
@@ -48,7 +48,7 @@ public class HiveJumpPads extends JavaPlugin {
 	public static Logger  				 _hjp_logger = Bukkit.getLogger();
 	
 	@Override
-	/** Executed whenever the plugin gets enabled. **/
+	/** Executed whenever HiveJumpPads gets enabled. **/
 	public void onEnable() {
 		ConfigHandler.setupAllConfigurations();
 		
@@ -59,14 +59,16 @@ public class HiveJumpPads extends JavaPlugin {
 		this.getCommand("hivejumppads").setExecutor(new HiveJumpPadsCommand());
 	
 		setupMetrics();
+		checkForPluginUpdates();
 	}
 	
 	@Override
-	/** Executed whenever the plugin gets disabled. **/
+	/** Executed whenever HiveJumpPads gets disabled. **/
 	public void onDisable() {
 		_hjp_language.clearLanguageCache();
 	}
 	
+	/** Sets up metrics and statistics collection. **/
 	private void setupMetrics() {
 		if(true) {
 			Metrics _hjp_metrics = new Metrics(this);
@@ -80,10 +82,19 @@ public class HiveJumpPads extends JavaPlugin {
 		}
 	}
 	
+	/** Checks if a new version of HiveJumpPads is available. **/
+	private void checkForPluginUpdates() {
+		
+	}
+	
+	/** Gets the Language that's currently in use.
+	 *  @return Returns the used Language (Object). **/
 	public static Language getLanguage() {
 		return _hjp_language;
 	}
 	
+	/** Gets the HiveJumpPads plugin.yml file. 
+	 *  @return Returns The Plugins' description file. **/
 	public static PluginDescriptionFile getDescriptionFile() {
 		return _hjp_desc;
 	}

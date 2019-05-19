@@ -28,8 +28,8 @@ hjp.command.general.no_perm=
 #
 hjp.command.help.title=&7&k..........&6 %plugin_name% &6v%ver% &lHelp &7&k..........&7:
 hjp.command.help.desc_info=shows a brief plugin info
-hjp.command.help.desc_wiki=shows an url refering to the wiki-page
-hjp.command.help.desc_reload=reloads the plugin
+hjp.command.help.desc_wiki=shows an url referring to the wiki-page
+hjp.command.help.desc_reload=reloads HiveJumpPads
 hjp.command.help.desc_update=checks and manages updates
 #
 hjp.command.reload.reloading=%prefix% &6HiveJumpPads &7v%ver% reloading...

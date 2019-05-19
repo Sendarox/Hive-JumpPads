@@ -20,29 +20,18 @@
 package com.Sendarox.HiveJumpPads.Config;
 
 import java.io.File;
-import java.util.HashMap;
 import java.util.logging.Level;
-
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
 
 import com.Sendarox.HiveJumpPads.HiveJumpPads;
 import com.Sendarox.HiveJumpPads.Utils.Handler.ResourceHandler;
 
 /** ConfigHandler.java - Configuration handler. */
 public class ConfigHandler {
-
-	public interface HJPConfiguration {
-		
-		public String __CONFIG_NAME__();
-		public String __CONFIG_PATH__();
-		public void __CONFIG_DEFAULTS__();
-		
-	}
 	
 	public static void setupAllConfigurations() {
 		setupDirectories();
 		setupDefaultLanguageFiles();
+		
 	}
 	
 	private static void setupDefaultLanguageFiles() {
@@ -67,12 +56,13 @@ public class ConfigHandler {
 		}
 	}
 	
+	/** Creates the plugins' folder, if it's not existing. **/
 	private static void setupDirectories() {
 		File _dir = new File("plugins/HiveJumpPads/lang/");
 		if(!_dir.exists()) {
 			_dir.mkdirs();
 		}
-		_dir = new File("plugins/HiveJumpPads/jumppads/");
+		_dir = new File("plugins/HiveJumpPads/jump-pads/");
 		if(!_dir.exists()) {
 			_dir.mkdirs();
 		}

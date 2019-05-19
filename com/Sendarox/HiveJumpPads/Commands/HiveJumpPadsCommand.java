@@ -24,6 +24,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
 import com.Sendarox.HiveJumpPads.HiveJumpPads;
+import com.Sendarox.HiveJumpPads.Config.JumpPadConfig;
 
 /** HiveJumpPadsCommand.java - HiveJumpPads main command class. */
 public class HiveJumpPadsCommand implements CommandExecutor {
@@ -33,6 +34,9 @@ public class HiveJumpPadsCommand implements CommandExecutor {
 		if(_args.length == 0) {
 			_s.sendMessage(HiveJumpPads.getLanguage().getLanguageContent("hjp.general.devby")+" §6§lSendarox");
 			_s.sendMessage(HiveJumpPads.getLanguage().getLanguageContent("hjp.general.help"));
+			
+			JumpPadConfig c = new JumpPadConfig("a");
+			
 		} else if(_args.length == 1) {
 			if(_args[0].equalsIgnoreCase("help")) {
 				_s.sendMessage(HiveJumpPads.getLanguage().getLanguageContent("hjp.command.help.title"));
