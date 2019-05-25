@@ -11,7 +11,7 @@
 
 [![Version][ver-img]][hjp-logo-url]
 [![Minecraft Version][mcver-img]][hjp-logo-url]
-[![Downloads][downloads-img]][hjp-logo-url]
+[![](http://cf.way2muchnoise.eu/full_hive-jumppads_downloads.svg)](https://dev.bukkit.org/projects/hive-jumppads)
 [![License][license-img]][hjp-logo-url]
 [![Servers][bstats-s-img]][hjp-logo-url]
 [![Players][bstats-p-img]][hjp-logo-url]
@@ -25,7 +25,7 @@ It provides the possibility to create so-called "JumpPads" that are fully custom
 
 ## **How to install HiveJumpPads**
 
-1. Download the latest release:  ```/_build/xxx.gma```<br>
+1. Download the latest release from dev.bukkit.org<br>
 2. Insert the file into: ```/your-server/plugins/```<br>
 3. Restart your server and enjoy the plugin!<br>
 
@@ -56,6 +56,5 @@ It provides the possibility to create so-called "JumpPads" that are fully custom
 [ver-img]: https://img.shields.io/badge/version-3.0b-green.svg?labelColor=2D2D2D
 [mcver-img]: https://img.shields.io/badge/Minecraft-1.11%20|%201.9%20|%201.8.1%20...-grey.svg?labelColor=2D2D2D
 [license-img]: https://img.shields.io/github/license/sendarox/HiveJumpPads.svg?labelColor=2D2D2D
-[downloads-img]: https://cf.way2muchnoise.eu/full_hive-jumppads_downloads.svg
 [bstats-s-img]: https://img.shields.io/bstats/servers/363.svg?labelColor=2D2D2D
 [bstats-p-img]: https://img.shields.io/bstats/players/363.svg?labelColor=2D2D2D
